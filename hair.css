@@ -69,16 +69,46 @@ main {
   flex-flow: row wrap;
 }
 
+main > * {
+  margin-bottom: 20px;
+}
+
 .quotebanner {
+  height: 300px;
+  width: 100%;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
   border: 2px solid coral;
+  background-color: #7a8589;
 }
 
 #bannerimg {
-  width: 30%;
+  height: 100%;
+  width: auto;
   justify-self: flex-start;
+}
+
+figcaption {
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  font-size: 3em;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.imagerow {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.smallimga {
+  max-width: 20%;
+  height: auto;
+  border: 4px solid coral;
+  border-radius: 5px;
 }
 
 footer {
