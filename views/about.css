@@ -1,0 +1,53 @@
+header {
+  background-color: coral;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.headerbox {
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.headerbox > h1 {
+  font-size: 5em;
+  background-color: darkblue;
+  width: fit-content;
+  height: fit-content;
+  padding: 15px;
+  color: white;
+  font-family: monospace;
+  position: relative;
+  top: 30px;
+}
+
+nav {
+  position: relative;
+  top: 30px;
+}
+nav > a {
+  font-size: 20px;
+  font-family: monospace;
+  text-decoration: none;
+  border: 1px solid darkblue;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+  margin: 9px;
+  padding: 5px;
+}
+
+#about {
+  background-color: #335f64;
+  border-color: #335f64;
+}
+
+nav > a:hover {
+  color: lightgrey;
+}
