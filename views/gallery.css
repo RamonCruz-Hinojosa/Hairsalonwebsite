@@ -1,0 +1,109 @@
+header {
+  background-color: coral;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  /* flex-flow: row nowrap; */
+  justify-content: center;
+  /* align-items: center; */
+  margin-bottom: 80px;
+}
+
+.headerbox {
+  width: 50%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.headerbox > h1 {
+  font-size: 5em;
+  background-color: darkblue;
+  width: fit-content;
+  height: fit-content;
+  padding: 15px;
+  color: white;
+  font-family: monospace;
+  position: relative;
+  top: 30px;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 60px;
+  width: 60%;
+}
+nav > a {
+  width: fit-content;
+  height: fit-content;
+  font-size: 18px;
+  font-family: monospace;
+  text-decoration: none;
+  border: 3px solid darkblue;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#hairstyles {
+  background-color: #335f64;
+  border-color: #335f64;
+}
+
+nav > a:hover {
+  color: lightgrey;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.gallery-grid {
+  width: 50%;
+  height: 900px;
+  display: grid;
+  grid-template: repeat(4, 10vw) / repeat(4, 1fr);
+  gap: 15px 15px;
+  margin-bottom: 40px;
+}
+
+.gallery-grid > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 4px solid coral;
+  box-shadow: 0px 5px 8px black;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: coral;
+  margin-bottom: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+footer > p {
+  width: 57%;
+  height: auto;
+  text-align: end;
+}
+
+footer > figure {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #387a82;
+  width: 150px;
+  height: 60px;
+  margin-left: 100px;
+}
