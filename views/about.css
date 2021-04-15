@@ -69,7 +69,7 @@ main {
   height: auto;
 }
 
-h1,
+main > h1,
 p {
   margin-bottom: 30px;
   line-height: 30px;

@@ -10,7 +10,8 @@ header {
 }
 
 .headerbox {
-  width: 50%;
+  width: 100%;
+  max-width: 1080px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -65,7 +66,8 @@ nav > a:hover {
 }
 
 .main-container {
-  width: 50%;
+  width: 100%;
+  max-width: 1080px;
   height: auto;
 }
 
